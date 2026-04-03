@@ -25,6 +25,6 @@ def extrair_video(url):
         print(f"\n❌ Ocorreu um erro ao tentar baixar o vídeo: {e}")
 
 
-link_do_video = "https://x.com/RaphaelMemes/status/2039380770905575629"
+link_do_video = "link do seu video aqui, amigo"
 
 extrair_video(link_do_video)
