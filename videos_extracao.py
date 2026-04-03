@@ -22,9 +22,9 @@ def extrair_video(url):
         print("\nDownload concluído com sucesso!")
 
     except Exception as e:
-        print(f"\n❌ Ocorreu um erro ao tentar baixar o vídeo: {e}")
+        print(f"\nOcorreu um erro ao tentar baixar o vídeo: {e}")
 
 
-link_do_video = "link do seu video aqui, amigo"
+link_do_video = "https://www.youtube.com/watch?v=1ZGsugwZC2U"
 
 extrair_video(link_do_video)
