@@ -19,7 +19,7 @@ def extrair_video(url):
         with yt_dlp.YoutubeDL(opcoes) as ydl:
             ydl.download([url])
 
-        print("\n✅ Download concluído com sucesso!")
+        print("\nDownload concluído com sucesso!")
 
     except Exception as e:
         print(f"\n❌ Ocorreu um erro ao tentar baixar o vídeo: {e}")
