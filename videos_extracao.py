@@ -31,6 +31,6 @@ def extrair_video(url):
         print(f"\nOcorreu um erro ao tentar baixar o vídeo: {e}")
 
 
-link_do_video = "https://www.youtube.com/watch?v=eAiVwsXgPDM"
+link_do_video = "https://www.youtube.com/watch?v=TAoT2ze_XHI"
 
 extrair_video(link_do_video)
